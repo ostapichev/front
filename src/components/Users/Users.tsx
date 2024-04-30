@@ -47,8 +47,7 @@ const Users: FC = () => {
                     <ButtonApp />
                 </div>
             </div>
-            {
-                users.map(user => <User
+            { users.map(user => <User
                     key={user.id}
                     user={user}
                 />)

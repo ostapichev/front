@@ -52,22 +52,22 @@ const User: FC<IProps> = ({ user }) => {
     return (
         <div className={css.container_user}>
             <div className={css.block_user}>
-                <div className={css.user_content}>id:&#160;<span className={css.user_data}>{id}</span></div>
-                <div className={css.user_content}>email:&#160;<span className={css.user_data}>{email}</span></div>
-                <div className={css.user_content}>name:&#160;
+                <div className={css.user_content}>id&#58;&#160;<span className={css.user_data}>{id}</span></div>
+                <div className={css.user_content}>email&#58;&#160;<span className={css.user_data}>{email}</span></div>
+                <div className={css.user_content}>name&#58;&#160;
                     <span className={css.user_data}>{profile.name}</span>
                 </div>
-                <div className={css.user_content}>surname:&#160;
+                <div className={css.user_content}>surname&#58;&#160;
                     <span className={css.user_data}>{profile.surname}</span>
                 </div>
-                <div className={css.user_content}>is active:&#160;
+                <div className={css.user_content}>is&#160;active&#58;&#160;
                     <span className={css.user_data}>{is_active === true ? 'yes' : 'no'}</span>
                 </div>
-                <div className={css.user_content}>last login:&#160;<span className={css.user_data}>
+                <div className={css.user_content}>last login&#58;&#160;<span className={css.user_data}>
                     { last_login ? <DateFormat originalDate={last_login} /> : dataTable.noData }</span>
                 </div>
             </div>
-            <StatisticUser id={id}/>
+            <StatisticUser id={id} />
             <div className={css.block_button}>
                 <button
                     className={button_css.btn_open}

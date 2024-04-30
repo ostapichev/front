@@ -287,7 +287,8 @@ const Orders: FC = () => {
                             order={order}
                             isOpen={order.id === orderId}
                             onClick={() => (order.id === orderId ? setOrderId(null) : setOrderId(order.id))}
-                        />) }
+                        />)
+                    }
                 </TableBody>
             </Table>
         </TableContainer>

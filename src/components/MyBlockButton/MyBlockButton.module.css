@@ -1,0 +1,29 @@
+.block_filters {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    padding-right: 10px;
+}
+
+.icon {
+    width: 40px;
+    background-color: snow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon_block {
+    display: flex;
+    justify-content: space-evenly;
+    width: 9vw;
+}
+
+.icon:hover {
+    background-color: lightgrey;
+    transform: scale(1.2);
+}
+
+.my {
+    font: bold 12pt Georgia, serif;
+}

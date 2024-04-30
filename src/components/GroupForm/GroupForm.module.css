@@ -1,0 +1,13 @@
+.btn_group {
+    background-color: #4CAf50;
+    border: none;
+    border-radius: 5px;
+    color: snow;
+    font: 8pt Georgia, serif;
+    width: 50%;
+}
+
+.btn_group:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}

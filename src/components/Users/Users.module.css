@@ -1,0 +1,49 @@
+.table_head {
+    align-items: center;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.table_users {
+    background-color: #E6E6E3;
+    width: 95vw;
+    border-radius: 10px;
+}
+
+.title_table {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    color: #656565;
+    font: 12pt Helvetica, sans-serif;
+}
+
+.title_state {
+    margin-top: 5px;
+    font: 15pt Tahoma, sans-serif;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.head_user {
+    font: 16pt Verdana, serif;
+    margin-left: 10px;
+}
+
+.btn_user_create {
+    margin-right: 20px;
+}
+
+
+.title_table > p:nth-child(2) {
+    width: 15%;
+    justify-content: center;
+}
+
+.title_table > p:last-child {
+    width: 15%;
+    justify-content: center;
+}

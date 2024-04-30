@@ -1,0 +1,33 @@
+.block_button button {
+    margin: 10px 20px 0 0;
+}
+
+.block_user {
+    font-size: 10pt;
+    margin: 0 0 10px 10px;
+    width: 25%;
+}
+
+.container_user {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_user:last-child {
+    border-bottom: none;
+}
+
+.info_text {
+    color: red;
+    margin-right: 15px;
+    text-align: end;
+}
+
+.user_content {
+    font: bold 10pt Helvetica, serif;
+}
+
+.user_data {
+    font: 12pt Helvetica, serif;
+}

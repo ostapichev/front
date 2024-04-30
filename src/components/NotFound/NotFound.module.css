@@ -1,0 +1,17 @@
+.header {
+    font: 15em Georgia, serif;
+    margin-top: 100px;
+}
+
+.not_found {
+    align-items: center;
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+.text_page {
+    font: 3em Helvetica, serif;
+}

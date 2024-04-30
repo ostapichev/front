@@ -1,0 +1,28 @@
+.comments_field {
+    height: 100px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.comments_field_modal {
+    height: 180px;
+    margin: 10px 0 20px;
+}
+
+.comments_field_modal:hover {
+    z-index: 1;
+}
+
+.left_block div {
+    margin: 10px;
+}
+
+.left_block div:nth-child(1), .left_block div:nth-child(2) {
+    font: 10pt Verdana, serif;
+}
+
+.right_block {
+    font: bold 14pt Georgia, serif;
+    margin: 10px;
+    width: 60%;
+}

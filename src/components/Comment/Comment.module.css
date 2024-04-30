@@ -1,0 +1,10 @@
+.comment_body {
+    border-bottom: 1px solid grey;
+    display: flex;
+    font: italic 12pt Georgia, Serif;
+    justify-content: space-between;
+}
+
+.comment_body div:nth-child(1) {
+    margin-right: 30px;
+}

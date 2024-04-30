@@ -1,0 +1,52 @@
+.err_text {
+    color: red;
+    font-size: 9pt;
+    margin: 2px;
+}
+
+.form_block {
+    align-items: center;
+    background-color: #EDEDED;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    font-size: 10pt;
+}
+
+.logo_form {
+    width: 50%;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.modal_form {
+    background-color: #EDEDED;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font: 12pt Arial, sans-serif;
+    left: 50%;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+

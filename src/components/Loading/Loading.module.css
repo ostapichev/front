@@ -1,0 +1,51 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.logo_loading {
+    border-radius: 50%;
+    height: 100px;
+    position: relative;
+    pointer-events: none;
+    width: 100px;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.title_loading {
+    color: #0056b3;
+    font: bold 3em Georgia, serif;
+    z-index: 5;
+}
+
+.overlay::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    z-index: 3;
+}
+
+@keyframes logo_loading-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo_loading {
+        animation: logo_loading-spin infinite 20s linear;
+    }
+}

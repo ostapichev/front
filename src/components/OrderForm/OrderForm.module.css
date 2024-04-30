@@ -1,0 +1,52 @@
+.button_block {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.button_block button {
+    margin: 10px;
+}
+
+.btn_group {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border: none;
+    color: snow;
+    font: 8pt Georgia, serif;
+    width: 100%;
+}
+
+.form_block_left, .form_block_right {
+    width: 45%;
+}
+
+.form_block_right_top {
+    margin-top: -76px;
+    width: 45%;
+}
+
+.group_form {
+    width: 45%;
+}
+
+.input_paid {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.order_form_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order_form {
+    height: 630px;
+    width: 700px;
+}
+
+.order_form_header {
+    font-weight: bold;
+    text-align: center;
+}

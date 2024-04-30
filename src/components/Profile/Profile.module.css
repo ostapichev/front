@@ -1,0 +1,14 @@
+.login_name {
+    color: #3134E7;
+    font: 25px Helvetica, sans-serif;
+}
+
+.login_name, .title_username {
+    align-items: center;
+    display: flex;
+}
+
+.title_username {
+    color: #318CE7;
+    font: 16px Arial, serif;
+}

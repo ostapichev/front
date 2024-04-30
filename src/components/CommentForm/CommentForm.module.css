@@ -1,0 +1,39 @@
+.button_comment {
+    background-color: #267CB5;
+    border: 1px solid grey;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    color: snow;
+}
+
+.button_comment[disabled] {
+    background-color: cornflowerblue;
+    border: none;
+    color: #D3EAFF;
+    cursor: not-allowed;
+}
+
+.button_comment:hover:enabled {
+    background-color: #0056B3;
+    color: snow;
+}
+
+.comment_form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.comment_form input {
+    border: 1px solid grey;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    padding: 5px;
+    width: 80%;
+}
+
+.comment_form input:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 2.0);
+    outline: none;
+}

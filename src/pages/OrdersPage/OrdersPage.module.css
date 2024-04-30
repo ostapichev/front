@@ -1,0 +1,23 @@
+.order_page {
+    align-items: stretch;
+    background-color: #C5E384;
+    display: flex;
+    flex-direction: column;
+    min-width: 1200px;
+}
+
+.orders_block {
+    align-items: center;
+    background-color: #C5E384;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 100%;
+}
+
+.inputs_actions {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

@@ -58,7 +58,7 @@ const orderValidator = Joi.object({
             'number.max': 'Sum cannot be more than 1000000',
             'number.required': 'Sum is required'
         }),
-    already_paid: Joi.number()
+    alreadyPaid: Joi.number()
         .integer()
         .min(1)
         .max(1000000)

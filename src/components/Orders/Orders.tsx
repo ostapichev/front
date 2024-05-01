@@ -58,7 +58,7 @@ const Orders: FC = () => {
     const orderByCourseType: IFuncVoid = () => sortingOrderBy('course_type');
     const orderByStatus: IFuncVoid = () => sortingOrderBy('status');
     const orderBySum: IFuncVoid = () => sortingOrderBy('sum');
-    const orderByPaid: IFuncVoid = () => sortingOrderBy('already_paid');
+    const orderByPaid: IFuncVoid = () => sortingOrderBy('alreadyPaid');
     const orderByGroup: IFuncVoid = () => sortingOrderBy('group');
     const orderByCreated: IFuncVoid = () => sortingOrderBy('created_at');
     const orderByManager: IFuncVoid = () => sortingOrderBy('manager');
